@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/GoFoodie/static/css/main.fbcddaef.css",
+    "main.js": "/GoFoodie/static/js/main.903d719d.js",
+    "static/js/787.7fe0dfbc.chunk.js": "/GoFoodie/static/js/787.7fe0dfbc.chunk.js",
+    "index.html": "/GoFoodie/index.html",
+    "main.fbcddaef.css.map": "/GoFoodie/static/css/main.fbcddaef.css.map",
+    "main.903d719d.js.map": "/GoFoodie/static/js/main.903d719d.js.map",
+    "787.7fe0dfbc.chunk.js.map": "/GoFoodie/static/js/787.7fe0dfbc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbcddaef.css",
+    "static/js/main.903d719d.js"
+  ]
+}
