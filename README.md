@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# 🍽️ GoFood - A Modern Food Ordering Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+GoFood is a full-stack food delivery platform that simplifies online food ordering. From live location detection during signup to browsing food items like 🍕 Pizza, 🍛 Biryani, and 🌶️ Starters — GoFood offers a seamless and responsive user experience with secure authentication and detailed order tracking.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- 🔐 **User Authentication**
+  - Secure login/signup using JWT tokens and password hashing with bcryptjs.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 📍 **Live Location Detection**
+  - Uses OpenCage Geocoding API to auto-fetch your address during signup.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🍽️ **Browse by Category**
+  - Food items are categorized into:
+    - 🍕 Pizza  
+    - 🍛 Biryani  
+    - 🌶️ Starters  
 
-### `npm test`
+- 🔎 **Search Functionality**
+  - Search for your favorite dish instantly.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🛒 **Dynamic Cart Management**
+  - Add, remove, and update items in your cart with quantity and size options.
 
-### `npm run build`
+- 📦 **Order History**
+  - See your previous orders with full details and timestamps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 📱 **Responsive UI**
+  - Built using Bootstrap for smooth experience across devices.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🧰 Tech Stack
 
-### `npm run eject`
+| Layer      | Technology                                |
+|------------|--------------------------------------------|
+| Frontend   | React.js, Bootstrap, HTML5/CSS3, JavaScript (ES6) |
+| Backend    | Node.js, Express.js                        |
+| Database   | MongoDB (with Mongoose ODM)                |
+| Auth       | JWT (JSON Web Tokens), bcryptjs            |
+| APIs       | OpenCage Geocoding API, Fetch API, Axios   |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🖥️ Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+> Replace the placeholders below with actual image links once uploaded to your `images/` folder.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🔐 Login Page  
+![Login](./images/Screenshot%202025-06-30%20025831.png)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 📝 Signup Page (with Live Location Detection)  
+![Signup](./images/Screenshot%202025-06-30%20025839.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+### 🍽️ Home Page – Food Categories  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### 🌶️ Starters  
+![Starters](./images/Screenshot%202025-06-30%20025810.png)
 
-### Analyzing the Bundle Size
+#### 🍛 Biryani  
+![Biryani](./images/Screenshot%202025-06-30%20025755.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### 🍕 Pizza  
+![Pizza](./images/Screenshot%202025-06-30%20035654.png)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 🏠 Overview of All Categories  
+![Home Overview](./images/Screenshot%202025-06-30%20025740.png)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 🛒 Cart Page  
+![Cart](./images/Screenshot%202025-06-30%20035630.png)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 📜 Previous Orders Page  
+![Order History](./images/Screenshot%202025-06-30%20035712.png)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+- Node.js (LTS)
+- MongoDB (local or Atlas)
+- OpenCage Geocoding API Key
+
+---
+
+### 🛠️ Installation & Setup
+
+#### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/GoFood.git
+cd GoFood
