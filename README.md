@@ -18,7 +18,7 @@ GoFood is a sleek and modern food delivery application that brings your favorite
   - **Starters** – Delicious appetizers to begin your meal.
 
 - 🛒 **Cart Functionality**
-  - Add, remove, update items with quantity and size selection.
+  - Add, remove, update items with quantity selection.
 
 - 📦 **Order History**
   - View your previous orders with dates and details.
@@ -83,7 +83,7 @@ Browse your past orders with complete detail.
 
 - **Node.js** installed
 - **MongoDB Atlas** connection string
-- **Geolocation API** key
+- **OpenCage Geolocation API** key
 
 ---
 
