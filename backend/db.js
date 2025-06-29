@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
-const mongoURI =
-  "mongodb+srv://aastha_0711:aasthagarg@cluster0.x2r0n.mongodb.net/GoFoodieMern?retryWrites=true&w=majority";
+const mongoURI = "mongodb+srv://:";
 
 module.exports = function (callback) {
   mongoose.connect(
