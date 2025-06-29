@@ -83,7 +83,7 @@ Browse your past orders with complete detail.
 
 - **Node.js** installed
 - **MongoDB Atlas** connection string
-- **OpenCage Geolocation API** key
+- **Geolocation API** key
 
 ---
 
