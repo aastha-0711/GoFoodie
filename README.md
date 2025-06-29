@@ -59,14 +59,15 @@ GoFood is a full-stack food delivery platform that simplifies online food orderi
 ---
 
 ### 🍽️ Home Page – Food Categories  
-#### 🍕 Pizza  
-![Pizza](./images/Screenshot%202025-06-30%20035654.png)
+
+#### 🌶️ Starters  
+![Starters](./images/Screenshot%202025-06-30%20025810.png)
 
 #### 🍛 Biryani  
 ![Biryani](./images/Screenshot%202025-06-30%20025755.png)
 
-#### 🌶️ Starters  
-![Starters](./images/Screenshot%202025-06-30%20025810.png)
+#### 🍕 Pizza  
+![Pizza](./images/Screenshot%202025-06-30%20035654.png)
 
 ---
 
