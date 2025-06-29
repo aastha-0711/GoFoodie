@@ -1,95 +1,104 @@
-# 🍽️ GoFood: Your Ultimate Food Delivery Experience
+# 🍽️ GoFood - A Modern Food Ordering Application
 
-GoFood is a sleek and modern food delivery application that brings your favorite dishes to your doorstep. With secure authentication, automatic live location detection, and a wide variety of food choices, GoFood ensures a seamless and satisfying user experience.
+GoFood is a full-stack food delivery platform that simplifies online food ordering. From live location detection during signup to browsing food items like 🍕 Pizza, 🍛 Biryani, and 🌶️ Starters — GoFood offers a seamless and responsive user experience with secure authentication and detailed order tracking.
 
 ---
 
 ## ✨ Features
 
 - 🔐 **User Authentication**
-  - Secure JWT-based login and signup system.
+  - Secure login/signup using JWT tokens and password hashing with bcryptjs.
 
 - 📍 **Live Location Detection**
-  - Automatically fetches your address during signup using geolocation.
+  - Uses OpenCage Geocoding API to auto-fetch your address during signup.
 
-- 🍕 **Variety of Food Options**
-  - **Pizza** – From classic Margherita to loaded Pepperoni.
-  - **Biryani** – Spicy and aromatic rice delicacies.
-  - **Starters** – Delicious appetizers to begin your meal.
+- 🍽️ **Browse by Category**
+  - Food items are categorized into:
+    - 🍕 Pizza  
+    - 🍛 Biryani  
+    - 🌶️ Starters  
 
-- 🛒 **Cart Functionality**
-  - Add, remove, update items with quantity selection.
+- 🔎 **Search Functionality**
+  - Search for your favorite dish instantly.
+
+- 🛒 **Dynamic Cart Management**
+  - Add, remove, and update items in your cart with quantity and size options.
 
 - 📦 **Order History**
-  - View your previous orders with dates and details.
+  - See your previous orders with full details and timestamps.
+
+- 📱 **Responsive UI**
+  - Built using Bootstrap for smooth experience across devices.
 
 ---
 
-## 🖼️ Screenshots
+## 🧰 Tech Stack
+
+| Layer      | Technology                                |
+|------------|--------------------------------------------|
+| Frontend   | React.js, Bootstrap, HTML5/CSS3, JavaScript (ES6) |
+| Backend    | Node.js, Express.js                        |
+| Database   | MongoDB (with Mongoose ODM)                |
+| Auth       | JWT (JSON Web Tokens), bcryptjs            |
+| APIs       | OpenCage Geocoding API, Fetch API, Axios   |
+
+---
+
+## 🖥️ Screenshots
+
+> Replace the placeholders below with actual image links once uploaded to your `images/` folder.
 
 ### 🔐 Login Page  
-User authentication with email and password.
-
 ![Login](./images/Screenshot%202025-06-30%20025831.png)
 
 ---
 
 ### 📝 Signup Page (with Live Location Detection)  
-Signup form auto-fills address using your device’s location.
-
 ![Signup](./images/Screenshot%202025-06-30%20025839.png)
 
 ---
 
-### 🍽️ Home Page – Featured Food Categories  
-Explore dishes across three main categories:
-
-#### 🍕 Pizza
+### 🍽️ Home Page – Food Categories  
+#### 🍕 Pizza  
 ![Pizza](./images/Screenshot%202025-06-30%20035654.png)
 
-#### 🍛 Biryani / Rice
+#### 🍛 Biryani  
 ![Biryani](./images/Screenshot%202025-06-30%20025755.png)
 
-#### 🌶️ Starters
-![Starter](./images/Screenshot%202025-06-30%20025810.png)
+#### 🌶️ Starters  
+![Starters](./images/Screenshot%202025-06-30%20025810.png)
 
 ---
 
-### 🏠 Home Layout Overview  
-Category cards shown together on main landing page.
-
-![Home](./images/Screenshot%202025-06-30%20025740.png)
+### 🏠 Overview of All Categories  
+![Home Overview](./images/Screenshot%202025-06-30%20025740.png)
 
 ---
 
 ### 🛒 Cart Page  
-Easily adjust quantities, sizes, and view pricing before checkout.
-
 ![Cart](./images/Screenshot%202025-06-30%20035630.png)
 
 ---
 
-### 📜 Previous Orders  
-Browse your past orders with complete detail.
-
-![Previous Orders](./images/Screenshot%202025-06-30%20035712.png)
+### 📜 Previous Orders Page  
+![Order History](./images/Screenshot%202025-06-30%20035712.png)
 
 ---
-
 
 ## 🚀 Getting Started
 
 ### 🔧 Prerequisites
 
-- **Node.js** installed
-- **MongoDB Atlas** connection string
-- **OpenCage Geolocation API** key
+- Node.js (LTS)
+- MongoDB (local or Atlas)
+- OpenCage Geocoding API Key
 
 ---
 
-### 🛠️ Installation
+### 🛠️ Installation & Setup
+
+#### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/GoFood.git
 cd GoFood
-npm install
