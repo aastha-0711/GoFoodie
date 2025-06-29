@@ -1,10 +1,10 @@
-global.foodData = require('./db')(function call(err, data, CatData) {
+global.foodData = require("./db")(function call(err, data, CatData) {
   if (err) console.log(err);
-  global.foodData = data;          // Food items
-  global.foodCategory = CatData;  // Food categories
+  global.foodData = data; // Food items
+  global.foodCategory = CatData; // Food categories
 });
 
-const express = require('express');
+const express = require("express");
 const app = express();
 const port = 5000;
 
@@ -21,16 +21,16 @@ app.use((req, res, next) => {
 app.use(express.json());
 
 // Root route
-app.get('/', (req, res) => {
-  res.send('Hello World!');
+app.get("/", (req, res) => {
+  res.send("Hello World!");
 });
 
 // Food data route
-app.post('/api/foodData', (req, res) => {
+app.post("/api/foodData", (req, res) => {
   try {
     res.json({
       food_items: global.foodData,
-      foodCategory: global.foodCategory
+      foodCategory: global.foodCategory,
     });
   } catch (error) {
     console.error("Error serving food data:", error);
@@ -39,7 +39,7 @@ app.post('/api/foodData', (req, res) => {
 });
 
 // Auth route
-app.use('/api/auth', require('./Routes/Auth'));
+app.use("/api/auth", require("./Routes/Auth"));
 
 // Start server
 app.listen(port, () => {
